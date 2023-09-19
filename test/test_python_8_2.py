@@ -2,6 +2,9 @@
 import pytest
 from selene import be, have
 
+# тестовый URL
+URL = 'https://google.com'
+
 
 # Тест на удачный поиск в Google
 def test_successful_search(open_url):
